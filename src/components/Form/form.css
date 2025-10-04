@@ -1,0 +1,127 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgb(37, 37, 93), rgb(82, 82, 155));
+}
+
+form {
+    width: 40vw;
+    height: auto;
+    background-color: white;
+    color: rgb(60, 60, 60);
+    margin: 8rem 0 8rem 0;
+}
+
+.header {
+    padding: 4rem;
+    text-align: start;
+}
+
+.header h3 {
+    margin-top: 1rem;
+}
+
+.line {
+    width: 100%;
+    height: 0.1rem;
+    background-color: darkgrey;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 4rem;
+    align-items: start;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    /* border: 2px solid; */
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.input {
+    width: 14.2rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 2px solid grey;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.radios {
+
+    display: flex;
+    gap: 6rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.row-section {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 4rem;
+    align-items: start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.contact-input {
+    width: 21rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 2px solid grey;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.address-input {
+    width: 44rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 2px solid grey;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.emergency-input {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 2px solid grey;
+    margin: 0.5rem 0 0.5rem 0;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.nxt{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 4rem;
+}
+.nxt button{
+    border: none;
+    background-color: rgb(2, 137, 255);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
