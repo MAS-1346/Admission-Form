@@ -101,7 +101,7 @@ const Form = () => {
                                     </option>
                                 ))}
                             </select>
-                            <label>Month</label>
+                            <label>Day</label>
                         </div>
                         <div className="box">
                             <select className="input" onChange={handleChange} name="year">
